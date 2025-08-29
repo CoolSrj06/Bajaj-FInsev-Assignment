@@ -3,6 +3,9 @@
 This project is a **Node.js + Express** REST API built as part of the **Bajaj Finserv Assignment**.  
 It processes an array of inputs and returns structured results such as separated numbers, alphabets, special characters, sum, and concatenated strings with alternating capitalization.
 
+**Name:** Srijan Maurya
+**Registration Number:** 22BCE10258
+
 ---
 
 ## 🚀 Live API
