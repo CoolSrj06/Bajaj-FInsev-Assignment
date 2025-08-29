@@ -3,8 +3,8 @@
 This project is a **Node.js + Express** REST API built as part of the **Bajaj Finserv Assignment**.  
 It processes an array of inputs and returns structured results such as separated numbers, alphabets, special characters, sum, and concatenated strings with alternating capitalization.
 
-**Name:** Srijan Maurya
-**Registration Number:** 22BCE10258
+###### Name: Srijan Maurya
+###### Registration Number:  22BCE10258
 
 ---
 
@@ -36,5 +36,22 @@ It processes an array of inputs and returns structured results such as separated
 ```
 curl -X POST https://bajaj-finsev-assignment.onrender.com/bfhl \
   -H "Content-Type: application/json" \
-  -d '{"input":["a","B","3","#","4","d","E","5","%","1"]}'
+  -d '{"data":["a","B","3","#","4","d","E","5","%","1"]}'
+```
+
+## Response
+
+```json
+{
+    "is_success": true,
+    "user_id": "Srijan Maurya",
+    "email": "srijanmaurya2022@vitbhopal.ac.in",
+    "roll_number": "22BCE10258",
+    "even_numbers": ["4"],
+    "odd_numbers": ["3","5","1"],
+    "alphabets": ["E","D","B","A"],
+    "special_characters": ["#","%"],
+    "sum": "13",
+    "concat_string": "EdBa"
+}
 ```
