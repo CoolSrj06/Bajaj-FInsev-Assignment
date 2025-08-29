@@ -30,10 +30,9 @@ It processes an array of inputs and returns structured results such as separated
 ---
 
 ## 📥 Example Request
-```http
-POST /bfhl
-Content-Type: application/json
-{
-  "input": ["a", "B", "3", "#", "4", "d", "E", "5", "%", "1"]
-}
+```
+curl -X POST https://bajaj-finsev-assignment.onrender.com/bfhl \
+  -H "Content-Type: application/json" \
+  -d '{"input":["a","B","3","#","4","d","E","5","%","1"]}'
+  
 ```
